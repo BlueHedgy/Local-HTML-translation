@@ -1,6 +1,6 @@
 # Local-HTML-translation
 
-This script loops through a directory, scan for text in the file and translate to Hindi using googletrans library by Pypi
+This script loops through a directory, scan for text in the HTML files and translate to Hindi using googletrans library by Pypi
 Problem, a large amount of data would be blocked by the service.
 
 Known issue: Some texts wrapped around by "" or certain tags seems to be ignored by bs4's find_all() method
