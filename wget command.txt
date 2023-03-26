@@ -1,0 +1,13 @@
+wget \
+ --recursive \
+ --no-clobber \
+ --page-requisites \
+ --adjust-extension \
+ --convert-links \
+ --restrict-file-names=unix \
+ --mirror \
+ --wait=5 \
+ --user-agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.0.0' \
+ --level=1 \
+ --no-parent \
+https://www.classcentral.com/
